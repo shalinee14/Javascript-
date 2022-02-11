@@ -1,0 +1,29 @@
+const books = {
+    'A' : 5.50,
+    'B' : 10,
+    'C' : 7
+};
+
+for (const [book, price] of Object.entries(books)){
+    if (price == 10) {
+        console.log(book);
+    }
+}
+
+//output
+// B 
+
+const hero = {
+  
+  'name':"Shalinee",
+  'profile' :" Software developer"
+}
+ console.log(Object.keys(hero));
+ console.log(Object.values(hero));
+ console.log(Object.entries(hero));
+ 
+ //output
+ // [ 'name', 'profile' ]
+//[ 'Shalinee', ' Software developer' ]
+//[ [ 'name', 'Shalinee' ], [ 'profile', ' Software developer' ] ]
+ 
